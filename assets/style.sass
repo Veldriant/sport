@@ -1,0 +1,66 @@
+.w-85
+    width: 85%
+.bg-red
+    background: #E41636
+body
+    background: #E6E6E6
+ul
+    list-style: none
+nav
+    padding-top: 32px
+    width: 90%
+    ul
+        list-style: none
+        display: flex
+        justify-content: end
+        li
+            padding-left: 25px
+            font-weight: 500
+            font-size: 20px
+            line-height: 19px
+            color: #000000
+            font-family: "Myriad Pro Regular"
+.first-block
+    background-image: url(./image/first-scren.png)
+    height: 1000px
+    background-repeat: no-repeat
+    background-position: top
+    background-size: cover
+.numbers-block
+    position: relative
+    top: -110px
+.about
+    &__event
+        width: 80%
+        margin: auto
+        &-text
+            width: 55%
+            h3
+                padding-top: 40px
+                font-style: normal
+                font-weight: 400
+                text-transform: uppercase
+                font-size: 128px
+                line-height: 128px
+                font-family: "Myriad Pro Bold"
+                padding-bottom: 63px
+            p
+                font-family: 'Myriad Pro'
+                font-style: normal
+                font-weight: 400
+                font-size: 28px
+                line-height: 127%
+                color: #000000
+        &-img
+            background-image: url(./image/Vector.png)
+            background-repeat: no-repeat
+            img
+                position: relative
+                left: -40px
+                top: -50px
+@media ( max-width: 1600px )
+    .numbers-block
+        position: relative
+        top: -310px
+    .about__event
+        margin-top: -260px
