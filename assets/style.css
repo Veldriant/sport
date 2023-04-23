@@ -19,7 +19,7 @@ body {
   margin: auto;
 }
 
-.h3-black {
+.h3-big {
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
@@ -222,6 +222,34 @@ nav ul li {
   font-size: 58px;
   line-height: 58px;
   font-weight: 500;
+}
+
+.swiper-navigation {
+  width: 100px;
+  padding-right: 20px;
+}
+
+.swiper-button-prev {
+  margin-right: 30px;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  color: #2D74CA;
+  background-color: #fff;
+  padding: 5px 20px;
+  border-radius: 30px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (max-width: 1600px) {
