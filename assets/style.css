@@ -2,12 +2,31 @@
   width: 85%;
 }
 
+.bg-inherit {
+  background-color: inherit;
+}
+
 .bg-red {
   background: #E41636;
 }
 
 body {
   background: #E6E6E6;
+}
+
+.container-wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.h3-black {
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 128px;
+  line-height: 128px;
+  font-family: "Myriad Pro Bold";
+  padding-bottom: 90px;
 }
 
 ul {
@@ -51,28 +70,15 @@ nav ul li {
   top: -110px;
 }
 
-.about__event {
-  width: 80%;
-  margin: auto;
+.allfree {
+  z-index: -1;
+  margin-left: -20px;
+  white-space: nowrap;
+  position: relative;
 }
 
 .about__event-text {
-  width: 55%;
-}
-
-.about__event-text h3 {
-  padding-top: 40px;
-  font-style: normal;
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 128px;
-  line-height: 128px;
-  font-family: "Myriad Pro Bold";
-  padding-bottom: 63px;
-}
-
-.about__event-text p {
-  font-family: 'Myriad Pro';
+  width: 60%;
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
@@ -80,15 +86,142 @@ nav ul li {
   color: #000000;
 }
 
+.about__event-text h3 {
+  padding-top: 40px;
+}
+
 .about__event-img {
   background-image: url(./image/Vector.png);
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  height: 550px;
 }
 
 .about__event-img img {
   position: relative;
   left: -40px;
   top: -50px;
+  height: 550px;
+}
+
+.schedule {
+  background-image: url(./image/bg-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+  height: 280px;
+  margin-top: 170px;
+}
+
+.schedule__titletabs {
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 96px;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+.schedule__wrapper {
+  background: #2D74CA;
+}
+
+.schedule__wrapper-title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  font-family: "Myriad Pro Regular";
+  padding-top: 90px;
+}
+
+.text-red {
+  color: #E41636;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: #2D74CA;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.tab-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.tab-textElips {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  padding-left: 10px;
+}
+
+.button-card {
+  width: 100%;
+  height: 70px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.nav-tabs {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.tab-pane ul {
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  grid-gap: 10px;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  color: #ffffff4d !important;
+}
+
+.nav-tabs.nav-item.show.nav-link, .nav-tabs .nav-link.active {
+  background-color: inherit;
+  border: none;
+  font-family: monospace;
+  color: #fff !important;
+}
+
+.tab-content {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.tab-content__wraper {
+  height: 350px;
+}
+
+.tab-content__block {
+  padding: 40px 50px 30px 30px;
+}
+
+.tab-content .text-red {
+  height: 110px;
+}
+
+.freeEnter {
+  font-size: 58px;
+  line-height: 58px;
+  font-weight: 500;
 }
 
 @media (max-width: 1600px) {
@@ -98,6 +231,53 @@ nav ul li {
   }
   .about__event {
     margin-top: -260px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .text-red {
+    font-size: 30px;
+  }
+  .text-blue {
+    font-size: 30px;
+  }
+  .button-card {
+    font-size: 25px;
+  }
+  .tab-content__wraper {
+    height: 400px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .tab-content__wraper {
+    height: 450px;
+  }
+  .tab-content__block {
+    padding: 20px 50px 30px 30px;
+  }
+  .text-blue {
+    font-size: 25px;
+  }
+  .text-red {
+    font-size: 25px;
+  }
+  .button-card {
+    font-size: 18px;
+  }
+  .about__event-text {
+    width: 100%;
+  }
+  .about__event-img {
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  .allfree {
+    margin-left: 0px;
+    display: inline-block;
+    margin-top: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,9 +1,22 @@
 .w-85
     width: 85%
+.bg-inherit
+    background-color: inherit
 .bg-red
     background: #E41636
 body
     background: #E6E6E6
+.container-wrapper
+    width: 80%
+    margin: auto
+.h3-black
+    font-style: normal
+    font-weight: 400
+    text-transform: uppercase
+    font-size: 128px
+    line-height: 128px
+    font-family: "Myriad Pro Bold"
+    padding-bottom: 90px
 ul
     list-style: none
 nav
@@ -29,38 +42,148 @@ nav
 .numbers-block
     position: relative
     top: -110px
+.allfree
+    z-index: -1
+    margin-left: -20px
+    white-space: nowrap
+    position: relative
 .about
     &__event
-        width: 80%
-        margin: auto
         &-text
-            width: 55%
+            width: 60%
+            font-style: normal
+            font-weight: 400
+            font-size: 28px
+            line-height: 127%
+            color: #000000
             h3
                 padding-top: 40px
-                font-style: normal
-                font-weight: 400
-                text-transform: uppercase
-                font-size: 128px
-                line-height: 128px
-                font-family: "Myriad Pro Bold"
-                padding-bottom: 63px
-            p
-                font-family: 'Myriad Pro'
-                font-style: normal
-                font-weight: 400
-                font-size: 28px
-                line-height: 127%
-                color: #000000
         &-img
             background-image: url(./image/Vector.png)
             background-repeat: no-repeat
+            background-size: contain
+            background-position: right
+            height: 550px
             img
                 position: relative
                 left: -40px
                 top: -50px
+                height: 550px
+.schedule
+    background-image: url(./image/bg-2.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: inherit
+    height: 280px
+    margin-top: 170px
+    &__titletabs
+        font-weight: 400
+        font-size: 96px
+        line-height: 96px
+        text-transform: uppercase
+        font-family: monospace
+    &__wrapper
+        background: #2D74CA
+        &-title
+            font-weight: 400
+            font-size: 36px
+            line-height: 36px
+            font-family: "Myriad Pro Regular"
+            padding-top: 90px
+.text-red
+    color: #E41636
+    font-weight: 700
+    font-size: 36px
+    line-height: 36px
+    text-transform: uppercase
+.text-blue
+    color: #2D74CA
+    font-weight: 700
+    font-size: 36px
+    line-height: 36px
+    text-transform: uppercase
+.tab-text
+    font-weight: 500
+    font-size: 16px
+    line-height: 25px
+.tab-textElips
+    font-weight: 500
+    font-size: 16px
+    line-height: 17px
+    padding-left: 10px
+.button-card
+    width: 100%
+    height: 70px
+    text-transform: uppercase
+    font-weight: 500
+    font-size: 30px
+    line-height: 36px
+.nav-tabs
+    justify-content: space-between
+    width: 80%
+    margin: auto
+.tab-pane
+    ul
+        grid-template-columns: 33% 33% 33%
+        grid-gap: 10px
+.nav-tabs .nav-link
+    border: none
+    color: #ffffff4d !important
+.nav-tabs.nav-item.show.nav-link, .nav-tabs .nav-link.active
+    background-color: inherit
+    border: none
+    font-family: monospace
+    color: #fff !important
+.tab-content
+    justify-content: space-between
+    width: 80%
+    margin: auto
+    &__wraper
+        height: 350px
+    &__block
+        padding: 40px 50px 30px 30px
+    .text-red
+        height: 110px
+.freeEnter
+    font-size: 58px
+    line-height: 58px
+    font-weight: 500
 @media ( max-width: 1600px )
     .numbers-block
         position: relative
         top: -310px
     .about__event
         margin-top: -260px
+@media ( max-width: 1440px )
+    .text-red
+        font-size: 30px
+    .text-blue
+        font-size: 30px
+    .button-card
+        font-size: 25px
+    .tab-content
+        &__wraper
+            height: 400px
+@media ( max-width: 1200px )
+    .tab-content
+        &__wraper
+            height: 450px
+        &__block
+            padding: 20px 50px 30px 30px
+    .text-blue
+        font-size: 25px
+    .text-red
+        font-size: 25px
+    .button-card
+        font-size: 18px
+    .about
+        &__event
+            &-text
+                width: 100%
+            &-img
+                display: none
+@media ( max-width: 990px )
+    .allfree
+        margin-left: 0px
+        display: inline-block
+        margin-top: 10px
