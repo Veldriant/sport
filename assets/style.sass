@@ -15,7 +15,7 @@ body
     text-transform: uppercase
     font-size: 128px
     line-height: 128px
-    font-family: "Mossport"
+    font-family: "Sport"
     padding-bottom: 90px
 ul
     list-style: none
@@ -32,7 +32,7 @@ nav
             font-size: 20px
             line-height: 19px
             color: #000000
-            font-family: "Myriad Pro Regular"
+            font-family: 'MyriadR'
 .first-block
     background-image: url(./image/first-scren.png)
     height: 1000px
@@ -51,6 +51,7 @@ nav
     &__event
         &-text
             width: 60%
+            font-family: 'MyriadR'
             font-style: normal
             font-weight: 400
             font-size: 28px
@@ -81,7 +82,7 @@ nav
         font-size: 96px
         line-height: 96px
         text-transform: uppercase
-        font-family: monospace
+        font-family: "Sport"
     &__wrapper
         background: #2D74CA
         padding-bottom: 100px
@@ -89,29 +90,33 @@ nav
             font-weight: 400
             font-size: 36px
             line-height: 36px
-            font-family: "Myriad Pro Regular"
+            font-family: "Sport"
             padding-top: 90px
 .text-red
     color: #E41636
-    font-weight: 700
+    font-weight: 400
     font-size: 36px
     line-height: 36px
     text-transform: uppercase
+    font-family: "Sport"
 .text-blue
     color: #2D74CA
-    font-weight: 700
+    font-weight: 400
     font-size: 36px
     line-height: 36px
     text-transform: uppercase
+    font-family: "Sport"
 .tab-text
-    font-weight: 500
+    font-weight: 400
     font-size: 16px
     line-height: 25px
+    font-family: 'MyriadR'
 .tab-textElips
-    font-weight: 500
+    font-weight: 400
     font-size: 16px
     line-height: 17px
     padding-left: 10px
+    font-family: 'MyriadR'
 .button-card
     width: 100%
     height: 70px
@@ -130,25 +135,26 @@ nav
 .nav-tabs .nav-link
     border: none
     color: #ffffff4d !important
+    font-family: "Sport"
 .nav-tabs.nav-item.show.nav-link, .nav-tabs .nav-link.active
     background-color: inherit
     border: none
-    font-family: monospace
     color: #fff !important
 .tab-content
     justify-content: space-between
     width: 80%
     margin: auto
     &__wraper
-        height: 350px
+        height: 300px
     &__block
         padding: 40px 50px 30px 30px
     .text-red
-        height: 110px
+        height: 70px
 .freeEnter
     font-size: 58px
     line-height: 58px
     font-weight: 500
+    font-family: "Sport"
 .swiper-navigation
     width: 100px
     padding-right: 20px
@@ -177,16 +183,19 @@ nav
             font-size: 32px
             line-height: 32px
             text-transform: uppercase
+            font-family: "Sport"
         p:nth-child(2)
             font-weight: 400
             font-size: 16px
             line-height: 140%
+            font-family: 'MyriadR'
         p:nth-child(3)
             font-style: normal
             font-weight: 400
             font-size: 14px
             line-height: 17px
             color: #ffffff4d
+            font-family: 'MyriadR'
 .parent
     display: grid
     grid-template-columns: 25% 25% 50%
@@ -215,13 +224,10 @@ nav
         font-size: 30px
     .button-card
         font-size: 25px
-    .tab-content
-        &__wraper
-            height: 400px
 @media ( max-width: 1200px )
     .tab-content
         &__wraper
-            height: 450px
+            height: 400px
         &__block
             padding: 20px 50px 30px 30px
     .text-blue

@@ -25,7 +25,7 @@ body {
   text-transform: uppercase;
   font-size: 128px;
   line-height: 128px;
-  font-family: "Mossport";
+  font-family: "Sport";
   padding-bottom: 90px;
 }
 
@@ -54,7 +54,7 @@ nav ul li {
   font-size: 20px;
   line-height: 19px;
   color: #000000;
-  font-family: "Myriad Pro Regular";
+  font-family: 'MyriadR';
 }
 
 .first-block {
@@ -79,6 +79,7 @@ nav ul li {
 
 .about__event-text {
   width: 60%;
+  font-family: 'MyriadR';
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
@@ -119,7 +120,7 @@ nav ul li {
   font-size: 96px;
   line-height: 96px;
   text-transform: uppercase;
-  font-family: monospace;
+  font-family: "Sport";
 }
 
 .schedule__wrapper {
@@ -131,37 +132,41 @@ nav ul li {
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
-  font-family: "Myriad Pro Regular";
+  font-family: "Sport";
   padding-top: 90px;
 }
 
 .text-red {
   color: #E41636;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 36px;
   line-height: 36px;
   text-transform: uppercase;
+  font-family: "Sport";
 }
 
 .text-blue {
   color: #2D74CA;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 36px;
   line-height: 36px;
   text-transform: uppercase;
+  font-family: "Sport";
 }
 
 .tab-text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 25px;
+  font-family: 'MyriadR';
 }
 
 .tab-textElips {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 17px;
   padding-left: 10px;
+  font-family: 'MyriadR';
 }
 
 .button-card {
@@ -190,12 +195,12 @@ nav ul li {
 .nav-tabs .nav-link {
   border: none;
   color: #ffffff4d !important;
+  font-family: "Sport";
 }
 
 .nav-tabs.nav-item.show.nav-link, .nav-tabs .nav-link.active {
   background-color: inherit;
   border: none;
-  font-family: monospace;
   color: #fff !important;
 }
 
@@ -208,7 +213,7 @@ nav ul li {
 }
 
 .tab-content__wraper {
-  height: 350px;
+  height: 300px;
 }
 
 .tab-content__block {
@@ -216,13 +221,14 @@ nav ul li {
 }
 
 .tab-content .text-red {
-  height: 110px;
+  height: 70px;
 }
 
 .freeEnter {
   font-size: 58px;
   line-height: 58px;
   font-weight: 500;
+  font-family: "Sport";
 }
 
 .swiper-navigation {
@@ -267,12 +273,14 @@ nav ul li {
   font-size: 32px;
   line-height: 32px;
   text-transform: uppercase;
+  font-family: "Sport";
 }
 
 .swiper-slide-text p:nth-child(2) {
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
+  font-family: 'MyriadR';
 }
 
 .swiper-slide-text p:nth-child(3) {
@@ -281,6 +289,7 @@ nav ul li {
   font-size: 14px;
   line-height: 17px;
   color: #ffffff4d;
+  font-family: 'MyriadR';
 }
 
 .parent {
@@ -349,14 +358,11 @@ nav ul li {
   .button-card {
     font-size: 25px;
   }
-  .tab-content__wraper {
-    height: 400px;
-  }
 }
 
 @media (max-width: 1200px) {
   .tab-content__wraper {
-    height: 450px;
+    height: 400px;
   }
   .tab-content__block {
     padding: 20px 50px 30px 30px;
