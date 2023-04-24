@@ -333,20 +333,23 @@
     </section>
     <section>
         <div class="container-wrapper">
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <h3 class="h3-big">
+            <ul class="nav nav-pills mb-3 justify-content-between align-items-center" id="pills-tab" role="tablist">
+                <h3 class="h3-big p-0">
                     галерея
                 </h3>
-                <li class="nav-item" role="presentation">
-                    <button class="galery nav-link active text-uppercase" id="pills-photo-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-photo" type="button" role="tab" aria-controls="pills-photo"
-                        aria-selected="true">смотреть фото</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="galery nav-link text-uppercase" id="pills-video-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-video" type="button" role="tab" aria-controls="pills-video"
-                        aria-selected="false">смотреть видео</button>
-                </li>
+                <div class="d-flex">
+                    <li class="nav-item" role="presentation">
+                        <button class="galery nav-link active text-uppercase" id="pills-photo-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-photo" type="button" role="tab" aria-controls="pills-photo"
+                            aria-selected="true">смотреть
+                            фото</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="galery nav-link text-uppercase" id="pills-video-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-video" type="button" role="tab" aria-controls="pills-video"
+                            aria-selected="false">смотреть видео</button>
+                    </li>
+                </div>
             </ul>
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-photo" role="tabpanel"

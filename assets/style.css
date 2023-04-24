@@ -288,8 +288,8 @@ nav ul li {
   display: grid;
   -ms-grid-columns: 25% 25% 50%;
       grid-template-columns: 25% 25% 50%;
-  -ms-grid-rows: (1fr)[5];
-      grid-template-rows: repeat(5, 1fr);
+  -ms-grid-rows: (1fr)[1fr];
+      grid-template-rows: repeat(1fr 1fr);
   gap: 10px;
 }
 
