@@ -286,11 +286,15 @@ nav ul li {
 .parent {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[5];
-      grid-template-columns: repeat(5, 1fr);
+  -ms-grid-columns: 25% 25% 50%;
+      grid-template-columns: 25% 25% 50%;
   -ms-grid-rows: (1fr)[5];
       grid-template-rows: repeat(5, 1fr);
   gap: 10px;
+}
+
+.parent img {
+  width: 100%;
 }
 
 .div1 {
