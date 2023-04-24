@@ -1,7 +1,12 @@
 @font-face {
- font-family: "Mossport";
- src: url("./MOSSPORT.OTF") format("otf");
-}@font-face {
- font-family: "MyriadPro";
- src: url("./MYRIADPRO-REGULAR.OTF") format("otf");
+    font-family: "Mossport";
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mossport'), url("MOSSPORT.OTF") format("OTF");
+}
+@font-face {
+    font-family: "MyriadPro";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./MYRIADPRO-REGULAR.OTF") format("otf");
 }
