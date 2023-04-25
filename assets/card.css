@@ -21,14 +21,12 @@ label {
         position: absolute;
         height: 100%;
         width: 100%;
-        background: #FFF;
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         border-radius: 2px;
     }
 
 .card .back {
-        background: #222;
         color: #FFF;
         -webkit-transform: rotateX(180deg);
         transform: rotateX(180deg);

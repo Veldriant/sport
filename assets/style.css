@@ -406,7 +406,8 @@ nav ul li {
 
 .front {
   font-family: "Sport";
-  font-weight: 600;
+  font-style: normal;
+  font-weight: 400;
   font-size: 36px;
   line-height: 36px;
   color: #2D74CA;
@@ -415,6 +416,27 @@ nav ul li {
 .front__img {
   left: 100%;
   top: 100%;
+}
+
+.back {
+  background-color: #E41636;
+}
+
+.back__title {
+  font-family: "Sport";
+  font-style: normal;
+  font-weight: 600;
+  width: 50%;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff9e;
+}
+
+.back__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: 'MyriadR';
 }
 
 @media (max-width: 1600px) {
