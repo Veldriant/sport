@@ -427,7 +427,7 @@ nav ul li {
 .question-card {
   -ms-grid-columns: 33% 33% 33%;
       grid-template-columns: 33% 33% 33%;
-  gap: 10px;
+  gap: 20px;
 }
 
 .front {
@@ -437,6 +437,7 @@ nav ul li {
   font-size: 36px;
   line-height: 36px;
   color: #2D74CA;
+  text-transform: uppercase;
 }
 
 .front__img {
