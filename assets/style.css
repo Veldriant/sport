@@ -38,6 +38,16 @@ nav {
   width: 90%;
 }
 
+nav a {
+  color: #000000;
+  text-decoration: none;
+  font-family: 'MyriadR';
+}
+
+nav a:hover {
+  color: #E41636;
+}
+
 nav ul {
   list-style: none;
   display: -webkit-box;
