@@ -1,3 +1,7 @@
+a
+    color: #000000
+    text-decoration: none
+    font-family: 'MyriadR'
 .w-85
     width: 85%
 .bg-inherit
@@ -26,10 +30,6 @@ ul
 nav
     padding-top: 32px
     width: 90%
-    a
-        color: #000000
-        text-decoration: none
-        font-family: 'MyriadR'
     a:hover
         color: #E41636
     ul
@@ -60,7 +60,7 @@ nav
 .about
     &__event
         &-text
-            width: 60%
+            width: 50%
             font-family: 'MyriadR'
             font-style: normal
             font-weight: 400
@@ -86,7 +86,7 @@ nav
     background-size: cover
     background-position: inherit
     height: 220px
-    margin-top: 170px
+    margin-top: 50px
     &__titletabs
         font-weight: 400
         font-size: 96px
@@ -296,6 +296,41 @@ nav
         font-size: 14px
         line-height: 17px
         font-family: 'MyriadR'
+.footer
+    &__top
+        &-img
+            img
+                padding-right: 30px
+        &-text
+            .title
+                font-weight: 400
+                font-size: 64px
+                line-height: 64px
+                font-family: "Sport"
+            .subtitle
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 17px
+                font-family: 'MyriadR'
+            ul
+                list-style: disc
+                font-weight: 400
+                font-size: 14px
+                line-height: 17px
+                font-family: 'MyriadR'
+    &__bottom
+        &-mail
+            font-family: 'MyriadR'
+            .title
+                font-size: 32px
+                line-height: 38px
+            .subtitle
+                font-size: 14px
+                line-height: 17px
+        &-other
+            a
+                color: #ffffff4d
 @media ( max-width: 1600px )
     .button-first
         left: 65%
@@ -303,7 +338,7 @@ nav
     .numbers-block
         top: -230px
     .about__event
-        margin-top: -260px
+        margin-top: -150px
     label
         height: 300px
 @media ( max-width: 1440px )
@@ -317,6 +352,13 @@ nav
     .button-first
         left: 66%
         top: 13%
+    .about
+        &__event
+            &-img img
+                position: relative
+                left: -30px
+                top: 0px
+                height: 480px
     .tab-content
         &__wraper
             height: 400px
@@ -328,14 +370,6 @@ nav
         font-size: 25px
     .button-card
         font-size: 18px
-    .about
-        &__event
-            &-text
-                width: 100%
-                font-size: 14px
-                line-height: 140%
-            &-img
-                display: none
     .bg-galery
         background-position-y: 440px
     .cart
@@ -361,12 +395,14 @@ nav
     .about
         &__event
             &-text
+                width: 100%
+                font-size: 14px
+                line-height: 140%
             h3
                 padding-top: 70px
                 padding-bottom: 30px
-    .schedule
-        margin-top: 50px
-        height: 200px
+            &-img
+                display: none
     .tab-pane
         ul
             grid-template-columns: 50% 50%
@@ -459,6 +495,40 @@ nav
         height: 680px
         background-size: cover
         background-position: center
+    .footer
+        &__top
+            &-text
+                .title
+                    font-weight: 400
+                    font-size: 48px
+                    line-height: 48px
+                    font-family: "Sport"
+                .subtitle
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 14px
+                    line-height: 17px
+                    font-family: 'MyriadR'
+                ul
+                    list-style: disc
+                    font-weight: 400
+                    font-size: 12px
+                    line-height: 14px
+                    font-family: 'MyriadR'
+        &__bottom
+            &-mail
+                font-family: 'MyriadR'
+                .title
+                    font-size: 24px
+                    line-height: 29px
+                .subtitle
+                    font-size: 12px
+                    line-height: 14px
+            &-other
+                font-size: 12px
+                line-height: 14px
+                flex-direction: column-reverse
+                align-items: start !important
 @media ( max-width: 420px )
     .first-block
         height: 500px
