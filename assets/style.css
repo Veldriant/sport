@@ -32,7 +32,7 @@ body {
   font-size: 128px;
   line-height: 128px;
   font-family: "Sport";
-  padding-bottom: 90px;
+  padding-bottom: 38px;
 }
 
 ul {
@@ -67,7 +67,7 @@ nav ul {
 nav ul li {
   padding-left: 25px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 19px;
   color: #000000;
   font-family: 'MyriadR';
@@ -98,7 +98,7 @@ nav ul li {
   font-family: 'MyriadR';
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 127%;
   color: #000000;
 }
@@ -127,7 +127,7 @@ nav ul li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: inherit;
-  height: 280px;
+  height: 220px;
   margin-top: 170px;
 }
 
@@ -515,12 +515,11 @@ nav ul li {
   }
   .about__event-text {
     width: 100%;
+    font-size: 14px;
+    line-height: 140%;
   }
   .about__event-img {
     display: none;
-  }
-  .first-block {
-    height: 860px;
   }
   .bg-galery {
     background-position-y: 440px;
@@ -534,10 +533,29 @@ nav ul li {
 }
 
 @media (max-width: 990px) {
+  .first-block {
+    background-image: url(./image/first-scren1.png);
+    height: 930px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+  }
+  .numbers-block {
+    top: -80px;
+    padding-bottom: 150px;
+  }
   .allfree {
     margin-left: 0px;
     display: inline-block;
     margin-top: 10px;
+  }
+  .about__event h3 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  .schedule {
+    margin-top: 50px;
+    height: 200px;
   }
   .tab-pane ul {
     -ms-grid-columns: 50% 50%;
@@ -592,9 +610,43 @@ nav ul li {
     -ms-grid-columns: 50% 50%;
         grid-template-columns: 50% 50%;
   }
+  .text-first {
+    font-family: "Sport";
+    top: -70px;
+    position: relative;
+  }
+  .text-first__titile {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .text-first__titile span {
+    color: #e51f2f5b;
+  }
+  .button-first {
+    left: 5%;
+    width: 50%;
+    text-align: center;
+    top: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  .first-block {
+    height: 850px;
+  }
 }
 
 @media (max-width: 690px) {
+  .first-block {
+    height: 780px;
+  }
   .h3-big {
     font-size: 64px;
     line-height: 64px;
@@ -646,6 +698,25 @@ nav ul li {
   .question-card {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .first-block {
+    height: 680px;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .first-block {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .button-first {
+    width: 60%;
   }
 }
 /*# sourceMappingURL=style.css.map */
