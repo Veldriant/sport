@@ -397,6 +397,26 @@ nav ul li {
   background-size: cover;
   background-position-y: -50px;
 }
+
+.question-card {
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  gap: 10px;
+}
+
+.front {
+  font-family: "Sport";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 36px;
+  color: #2D74CA;
+}
+
+.front__img {
+  left: 100%;
+  top: 100%;
+}
+
 @media (max-width: 1600px) {
   .numbers-block {
     position: absolute;

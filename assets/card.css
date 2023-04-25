@@ -2,8 +2,7 @@ label {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     display: block;
-    width: 300px;
-    height: 200px;
+    height: 230px;
     cursor: pointer;
 }
 
@@ -23,7 +22,6 @@ label {
         height: 100%;
         width: 100%;
         background: #FFF;
-        text-align: center;
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         border-radius: 2px;
