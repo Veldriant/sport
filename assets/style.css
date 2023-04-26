@@ -4,6 +4,10 @@ a {
   font-family: 'MyriadR';
 }
 
+p {
+  margin: 0px;
+}
+
 .w-85 {
   width: 85%;
 }
@@ -74,7 +78,7 @@ nav ul li {
 }
 
 .first-block {
-  background-image: url(./image/first-scren.png);
+  background-image: url(./image/first-scren3.png);
   height: 1000px;
   background-repeat: no-repeat;
   background-position: top;
@@ -150,6 +154,19 @@ nav ul li {
   line-height: 36px;
   font-family: "Sport";
   padding-top: 90px;
+}
+
+.schedule__button {
+  padding-left: 12px;
+}
+
+.schedule__button button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  font-family: 'MyriadR';
+  background-color: #2D74CA;
 }
 
 .text-red {
@@ -702,6 +719,9 @@ footer {
   .schedule {
     height: 120px;
     margin-top: 50px;
+  }
+  .schedule__titletabs {
+    text-align: left;
   }
   .container-wrapper {
     width: 90%;
