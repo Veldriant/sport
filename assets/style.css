@@ -774,6 +774,9 @@ footer {
             justify-content: center;
     margin-bottom: 30px;
   }
+  .back__text {
+    padding-top: 10px;
+  }
   .footer__top {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
