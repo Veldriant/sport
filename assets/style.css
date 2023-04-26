@@ -479,16 +479,16 @@ nav ul li {
   font-family: "Sport";
   font-style: normal;
   width: 60%;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 23px;
+  line-height: 25px;
   color: #ffffff9e;
   text-transform: uppercase;
 }
 
 .back__text {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 17px;
+  line-height: 21px;
   font-family: 'MyriadR';
 }
 
@@ -626,7 +626,7 @@ footer {
     width: 100%;
   }
   .label {
-    height: 350px;
+    height: 360px;
   }
   .nav-tabs {
     -ms-flex-pack: distribute;
@@ -763,6 +763,9 @@ footer {
 }
 
 @media (max-width: 690px) {
+  .label {
+    height: 280px;
+  }
   .first-block {
     height: 780px;
   }
@@ -887,6 +890,9 @@ footer {
 }
 
 @media (max-width: 575px) {
+  .label {
+    height: 340px;
+  }
   .footer__top-img {
     padding-bottom: 50px !important;
   }
