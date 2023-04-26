@@ -617,6 +617,13 @@ footer {
   .label {
     height: 350px;
   }
+  .nav-tabs {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .nav-tabs li {
+    padding-right: 20px;
+  }
 }
 
 @media (max-width: 990px) {
@@ -655,10 +662,6 @@ footer {
   }
   .tab-content__wraper {
     height: 350px;
-  }
-  .nav-tabs {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
   }
   .swiper-navigation {
     display: none !important;
@@ -768,6 +771,10 @@ footer {
   }
   .nav-tabs {
     width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;

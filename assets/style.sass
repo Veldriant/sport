@@ -410,7 +410,10 @@ footer
             width: 100%
     .label
         height: 350px
-
+    .nav-tabs
+        justify-content: space-around
+        li
+            padding-right: 20px
 @media ( max-width: 990px )
     .first-block
         background-image: url(./image/first-scren1.png)
@@ -443,8 +446,6 @@ footer
     .tab-content
         &__wraper
             height: 350px
-    .nav-tabs
-        justify-content: space-around
     .swiper-navigation
         display: none !important
     .bg-galery
@@ -509,6 +510,7 @@ footer
                 margin: auto
     .nav-tabs
         width: 90%
+        flex-direction: column
         justify-content: start
     .nav-tabs .nav-link
         font-size: 64px
