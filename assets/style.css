@@ -543,7 +543,7 @@ footer {
 
 @media (max-width: 1600px) {
   .button-first {
-    left: 65%;
+    left: 65.5%;
     top: 14%;
   }
   .numbers-block {
@@ -558,6 +558,9 @@ footer {
 }
 
 @media (max-width: 1440px) {
+  .button-first {
+    left: 67.5%;
+  }
   .text-red {
     font-size: 30px;
   }
@@ -568,7 +571,7 @@ footer {
 
 @media (max-width: 1200px) {
   .button-first {
-    left: 66%;
+    left: 72%;
     top: 13%;
   }
   .about__event-img img {
