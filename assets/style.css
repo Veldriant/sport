@@ -818,6 +818,18 @@ footer {
   }
 }
 
+@media (max-width: 470px) {
+  .galery {
+    font-size: 36px;
+    line-height: 36px;
+    width: 300px;
+  }
+  .galery__wraper:nth-child(1) {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+}
+
 @media (max-width: 420px) {
   .first-block {
     height: 500px;
