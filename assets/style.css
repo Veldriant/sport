@@ -190,8 +190,9 @@ nav ul li {
   height: 70px;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 36px;
   line-height: 36px;
+  font-family: "Sport";
 }
 
 .galery {
@@ -466,6 +467,10 @@ nav ul li {
   font-family: 'MyriadR';
 }
 
+footer {
+  background-color: #1C1D18;
+}
+
 .footer__top-img img {
   padding-right: 30px;
 }
@@ -534,9 +539,6 @@ nav ul li {
   .text-blue {
     font-size: 30px;
   }
-  .button-card {
-    font-size: 25px;
-  }
 }
 
 @media (max-width: 1200px) {
@@ -561,9 +563,6 @@ nav ul li {
   }
   .text-red {
     font-size: 25px;
-  }
-  .button-card {
-    font-size: 18px;
   }
   .bg-galery {
     background-position-y: 440px;
