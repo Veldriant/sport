@@ -78,7 +78,7 @@ nav ul li {
 }
 
 .first-block {
-  background-image: url(./image/first-scren3.png);
+  background-image: url(./image/first-scren.svg);
   height: 1000px;
   background-repeat: no-repeat;
   background-position: top;
@@ -610,7 +610,7 @@ footer {
   }
   .numbers-block {
     top: -80px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
   }
   .allfree {
     margin-left: 0px;
@@ -903,7 +903,7 @@ footer {
   display: none;
   position: absolute;
   top: 0;
-  height: 100%;
+  height: 550px;
   width: 100%;
   background: #E41636;
   overflow: hidden;
