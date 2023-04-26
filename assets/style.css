@@ -557,6 +557,17 @@ footer {
   }
 }
 
+@media (max-width: 1470px) {
+  .about__event-text {
+    width: 60%;
+  }
+  .about__event-img img {
+    left: -30px;
+    top: 90px;
+    height: 300px;
+  }
+}
+
 @media (max-width: 1440px) {
   .button-first {
     left: 67.5%;
@@ -574,11 +585,16 @@ footer {
     left: 72%;
     top: 13%;
   }
+  .about__event-text {
+    width: 80%;
+  }
+  .about__event-img {
+    width: 20%;
+  }
   .about__event-img img {
-    position: relative;
-    left: -30px;
-    top: 0px;
-    height: 480px;
+    left: -10px;
+    top: 120px;
+    height: 280px;
   }
   .tab-content__wraper {
     height: 400px;
@@ -616,7 +632,7 @@ footer {
     padding-bottom: 50px;
   }
   .allfree {
-    margin-left: 0px;
+    margin-left: -10px;
     display: inline-block;
     margin-top: 10px;
   }
@@ -852,6 +868,10 @@ footer {
   .galery__wraper:nth-child(1) {
     margin-right: 0px;
     margin-bottom: 10px;
+  }
+  .allfree {
+    margin-top: 0px;
+    margin-left: 0px;
   }
 }
 

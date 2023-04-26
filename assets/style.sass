@@ -361,6 +361,18 @@ footer
         margin-top: -150px
     .label
         height: 300px
+@media ( max-width: 1470px )
+    .about
+        &__event
+            &-text
+                width: 60%
+            &-img
+                // width: 20%
+                img
+                    left: -30px
+                    top: 90px
+                    height: 300px
+
 @media ( max-width: 1440px )
     .button-first
         left: 67.5%
@@ -374,11 +386,14 @@ footer
         top: 13%
     .about
         &__event
-            &-img img
-                position: relative
-                left: -30px
-                top: 0px
-                height: 480px
+            &-text
+                width: 80%
+            &-img
+                width: 20%
+                img
+                    left: -10px
+                    top: 120px
+                    height: 280px
     .tab-content
         &__wraper
             height: 400px
@@ -407,7 +422,7 @@ footer
         top: -80px
         padding-bottom: 50px
     .allfree
-        margin-left: 0px
+        margin-left: -10px
         display: inline-block
         margin-top: 10px
     .about
@@ -567,6 +582,9 @@ footer
         &__wraper:nth-child(1)
             margin-right: 0px
             margin-bottom: 10px
+    .allfree
+        margin-top: 0px
+        margin-left: 0px
 @media ( max-width: 420px )
     .first-block
         height: 500px
