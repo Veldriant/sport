@@ -8,6 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/fonts/fonts.css">
     <link rel="stylesheet" href="./assets/card.css">
     <link rel="stylesheet" href="./assets/style.css">
@@ -16,7 +19,7 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="d-lg-block d-none ">
         <ul>
             <li><a href="#About">О событии</a> </li>
             <li><a href="#Schedule">Расписание</a></li>
@@ -26,6 +29,30 @@
             <li><a href="#Contacts">Контакты</a></li>
         </ul>
     </nav>
+    <nav class="mobile d-block d-lg-none">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="button-mob">
+            <a class="btn-open" href="#"></a>
+        </div>
+    </nav>
+    <div class="overlay">
+        <ul class="m-0 p-0 position-relative">
+            <li><a href="#About">О событии</a> </li>
+            <li><a href="#Schedule">Расписание</a></li>
+            <li><a href="#Map">Карта</a></li>
+            <li><a href="#Gallery">Галерея</a></li>
+            <li><a href="#Questions">Вопросы и ответы</a></li>
+            <li><a href="#Contacts">Контакты</a></li>
+            <button class="bg-white text-red border-0 p-3 ">Присоединиться</button>
+        </ul>
+    </div>
+
+
+
     <section class="first-block">
         <button class="bg-white text-red border-0 p-3 d-lg-block d-none button-first">Присоединиться</button>
     </section>
@@ -395,7 +422,7 @@
         <div class="container-wrapper">
             <div class="cart d-flex justify-content-center">
                 <a name="Map"></a>
-                <div>
+                <div class="d-flex w-100">
                     <img src="./assets/image/cart.png" alt="">
                 </div>
             </div>
@@ -457,22 +484,21 @@
             </div>
             <div class="px-4 py-5">
                 <h3 class="partner text-white text-uppercase">Организаторы и партнеры</h3>
-                <ul class="d-flex flex-lg-row flex-column justify-content-between p-0 py-5 partner__img ">
-                    <div class="d-flex  justify-content-between w-100">
-                        <li><img src="./assets/image/org1.png" alt="org1"></li>
-                        <li><img src="./assets/image/org2.png" alt="org2"></li>
-                        <li><img src="./assets/image/org3.png" alt="org3"></li>
-                    </div>
-                    <div class="d-flex justify-content-between w-100">
-                        <li><img src="./assets/image/org1.png" alt="org1"></li>
-                        <li><img src="./assets/image/org2.png" alt="org2"></li>
-                        <li><img src="./assets/image/org3.png" alt="org3"></li>
-                    </div>
-                    <div class="d-flex justify-content-between w-100">
-                        <li><img src="./assets/image/org1.png" alt="org1"></li>
-                        <li><img src="./assets/image/org2.png" alt="org2"></li>
-                        <li><img src="./assets/image/org3.png" alt="org3"></li>
-                    </div>
+                <ul class="d-grid p-0 pt-5 partner__img ">
+
+                    <!-- <li><img src="./assets/image/org1.png" alt="org1"></li>
+                    <li><img src="./assets/image/org2.png" alt="org2"></li>
+                    <li><img src="./assets/image/org3.png" alt="org3"></li> -->
+
+                    <li class="d-flex align-items-center"><img src="./assets/image/logo1.jpeg" alt="org1"></li>
+                    <li class="d-flex align-items-center"><img src="./assets/image/logo2.png" alt="org1"></li>
+
+                    <li class="d-flex align-items-center"><img src="./assets/image/logo4.jpeg" alt="org1"></li>
+                    <li class="d-flex align-items-center"><img src="./assets/image/logo4.png" alt="org1"></li>
+                    <li class="d-flex align-items-center"><img src="./assets/image/logo6.png" alt="org1"></li>
+
+                    <li class="d-flex align-items-center"><img src="./assets/image/logo7.png" alt="org1"></li>
+
                 </ul>
             </div>
         </div>
@@ -483,7 +509,7 @@
             <h3 class="h3-big pt-lg-5 pt-0">вопросы и ответы</h3>
             <ul class="d-grid question-card p-0">
                 <li>
-                    <label>
+                    <label class="label">
                         <input type="checkbox" />
                         <div class="card">
                             <div class="front p-4">
@@ -512,7 +538,7 @@
                     </label>
                 </li>
                 <li>
-                    <label>
+                    <label class="label">
                         <input type="checkbox" />
                         <div class="card">
                             <div class="front p-4">
@@ -541,7 +567,7 @@
                     </label>
                 </li>
                 <li>
-                    <label>
+                    <label class="label">
                         <input type="checkbox" />
                         <div class="card">
                             <div class="front p-4">
@@ -569,7 +595,7 @@
                     </label>
                 </li>
                 <li>
-                    <label>
+                    <label class="label">
                         <input type="checkbox" />
                         <div class="card">
                             <div class="front p-4">
@@ -597,7 +623,7 @@
                     </label>
                 </li>
                 <li>
-                    <label>
+                    <label class="label">
                         <input type="checkbox" />
                         <div class="card">
                             <div class="front p-4">
@@ -625,7 +651,7 @@
                     </label>
                 </li>
                 <li>
-                    <label>
+                    <label class="label">
                         <input type="checkbox" />
                         <div class="card">
                             <div class="front p-4">
@@ -736,6 +762,8 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <script src="./assets/js.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
