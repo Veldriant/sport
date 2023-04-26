@@ -184,9 +184,9 @@ nav
     width: 80%
     margin: auto
     &__wraper
-        height: 300px
+        height: 270px
     &__block
-        padding: 40px 50px 30px 30px
+        padding: 30px
     .text-red
         height: 70px
 .tab-content-galery
@@ -317,6 +317,8 @@ footer
     background-color: #1C1D18
 .footer
     &__top
+        padding-top: 50px
+        flex-direction: row-reverse
         &-img
             img
                 padding-right: 30px
@@ -362,6 +364,9 @@ footer
     .label
         height: 300px
 @media ( max-width: 1470px )
+    .tab-content
+        &__wraper
+            height: 300px
     .about
         &__event
             &-text
@@ -396,9 +401,9 @@ footer
                     height: 280px
     .tab-content
         &__wraper
-            height: 400px
+            height: 350px
         &__block
-            padding: 20px 50px 30px 30px
+            padding: 30px
     .text-blue
         font-size: 25px
     .text-red
@@ -485,6 +490,9 @@ footer
         display: flex
         justify-content: center
         margin-bottom: 30px
+    .footer
+        &__top
+            flex-direction: column
 @media ( max-width: 750px )
     .first-block
         height: 850px
@@ -517,6 +525,8 @@ footer
         line-height: 64px
     .tab-content
         width: 90%
+        &__wraper
+            height: 280px
     .cart
         img
             width: 100%
@@ -576,6 +586,11 @@ footer
                 line-height: 14px
                 flex-direction: column-reverse
                 align-items: start !important
+@media ( max-width: 575px )
+    .footer
+        &__top
+            &-img
+                padding-bottom: 50px !important
 @media ( max-width: 470px )
     .galery
         font-size: 36px
@@ -587,6 +602,9 @@ footer
     .allfree
         margin-top: 0px
         margin-left: 0px
+    .tab-content
+        &__wraper
+            height: 350px
 @media ( max-width: 420px )
     .first-block
         height: 500px
