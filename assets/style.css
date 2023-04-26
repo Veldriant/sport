@@ -24,6 +24,36 @@ body {
   background: #E6E6E6;
 }
 
+button:hover {
+  -webkit-box-shadow: 5px 0px 20px #f300009c;
+          box-shadow: 5px 0px 20px #f300009c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+button {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+button.nav-link:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  scale: 1.1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+button.nav-link {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button-first:hover {
+  -webkit-box-shadow: 5px 0px 20px #0303039c;
+          box-shadow: 5px 0px 20px #0303039c;
+}
+
 .container-wrapper {
   width: 80%;
   margin: auto;
@@ -404,10 +434,10 @@ nav ul li {
 }
 
 .bg-galery {
-  background-image: url(./image/bg-galery.png);
+  background: #2D74CA;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -50px;
+  background-position-y: bottom;
 }
 
 .cart {
@@ -619,9 +649,6 @@ footer {
   .text-red {
     font-size: 25px;
   }
-  .bg-galery {
-    background-position-y: 40px;
-  }
   .cart img {
     width: 100%;
   }
@@ -677,9 +704,8 @@ footer {
   .swiper-navigation {
     display: none !important;
   }
-  .bg-galery {
-    background-position-y: -30px;
-    background-position-x: -250px;
+  .bg-quest {
+    padding-top: 50px;
   }
   .parent {
     display: -ms-grid;
@@ -814,11 +840,6 @@ footer {
     height: 470px;
     -o-object-fit: cover;
        object-fit: cover;
-  }
-  .bg-galery {
-    background-position-y: -100px;
-    background-position-x: 0px;
-    padding-bottom: 100px;
   }
   .partner {
     font-size: 64px;
