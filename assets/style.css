@@ -175,7 +175,7 @@ nav ul li {
 
 .schedule__wrapper {
   background: #2D74CA;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
 }
 
 .schedule__wrapper-title {
@@ -783,6 +783,10 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+
+.swiper {
+  display: none;
 }
 
 @media (max-width: 750px) {
