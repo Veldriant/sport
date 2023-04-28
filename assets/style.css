@@ -1,3 +1,7 @@
+.swiper {
+  display: none;
+}
+
 a {
   color: #000000;
   text-decoration: none;
@@ -579,6 +583,26 @@ footer {
   color: #ffffff4d;
 }
 
+.privacy_policy p {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  font-family: "Sport";
+  text-align: center;
+}
+
+.privacy_policy ul {
+  padding-top: 50px;
+}
+
+.privacy_policy li {
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  font-family: 'MyriadR';
+}
+
 @media (max-width: 1600px) {
   .button-first {
     left: 65.5%;
@@ -783,10 +807,23 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-}
-
-.swiper {
-  display: none;
+  .privacy_policy p {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    font-family: "Sport";
+    text-align: center;
+  }
+  .privacy_policy ul {
+    padding-top: 30px;
+  }
+  .privacy_policy li {
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    font-family: 'MyriadR';
+  }
 }
 
 @media (max-width: 750px) {
@@ -897,7 +934,7 @@ footer {
     font-family: 'MyriadR';
   }
   .footer__bottom-mail .title {
-    font-size: 24px;
+    font-size: 15px;
     line-height: 29px;
   }
   .footer__bottom-mail .subtitle {
