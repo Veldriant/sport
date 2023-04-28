@@ -131,6 +131,10 @@ nav ul li {
   position: relative;
 }
 
+.tab-content__wraper .text-red {
+  height: 70px;
+}
+
 .about__event-text {
   width: 50%;
   font-family: 'MyriadR';
