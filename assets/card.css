@@ -17,6 +17,7 @@
     -webkit-transition: all 600ms;
     transition: all 600ms;
     z-index: 20;
+    -webkit-z-index: 20;
 }
 
 .card div {
