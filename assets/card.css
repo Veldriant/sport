@@ -9,6 +9,7 @@
 
 .card {
     position: relative;
+    -webkit-position: relative;
     height: 100%;
     width: 100%;
     -webkit-transform-style: preserve-3d;
@@ -20,6 +21,7 @@
 
 .card div {
         position: absolute;
+        -webkit-position: absolute;
         height: 100%;
         width: 100%;
         -webkit-backface-visibility: hidden;
