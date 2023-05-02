@@ -47,6 +47,8 @@ ul
 nav
     padding-top: 32px
     width: 90%
+    a
+        font-family: 'MyriadR'
     a:hover
         color: #E41636
     ul
@@ -69,11 +71,6 @@ nav
 .numbers-block
     position: relative
     top: -110px
-.allfree
-    z-index: -1
-    margin-left: -20px
-    white-space: nowrap
-    position: relative
 .tab-content__wraper
     .text-red
         height: 80px
@@ -208,11 +205,11 @@ nav
     width: 80%
     margin: auto
     &__wraper
-        height: 270px
+        height: 320px
     &__block
         padding: 30px
     .text-red
-        height: 70px
+        height: 120px
 
 .tab-content-galery
     width: 100%
@@ -420,7 +417,7 @@ footer
 @media ( max-width: 1470px )
     .tab-content
         &__wraper
-            height: 300px
+            height: 350px
     .about
         &__event
             &-text
@@ -455,7 +452,7 @@ footer
                     height: 280px
     .tab-content
         &__wraper
-            height: 350px
+            height: 400px
         &__block
             padding: 30px
     .text-blue
@@ -483,10 +480,8 @@ footer
     .numbers-block
         top: -80px
         padding-bottom: 50px
-    .allfree
-        margin-left: -10px
-        display: inline-block
-        margin-top: 10px
+    .tab-content .text-red
+        height: 80px
     .about
         &__event
             &-text
@@ -504,7 +499,7 @@ footer
             grid-gap: 10px
     .tab-content
         &__wraper
-            height: 350px
+            height: 320px
     .swiper-navigation
         display: none !important
     .bg-galery
@@ -582,6 +577,8 @@ footer
 @media ( max-width: 750px )
     .first-block
         height: 850px
+    .tab-content__wraper
+        height: 360px
 @media ( max-width: 690px )
     .label
         height: 280px
@@ -614,7 +611,7 @@ footer
     .tab-content
         width: 90%
         &__wraper
-            height: 280px
+            height: 290px
     .cart
         img
             width: 100%
