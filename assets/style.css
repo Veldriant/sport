@@ -164,6 +164,12 @@ nav ul li {
   height: 550px;
 }
 
+.impersLog img {
+  height: 100px;
+  width: 180px;
+  padding-top: 25px;
+}
+
 .schedule {
   background-image: url(./image/bg-2.png);
   background-repeat: no-repeat;
@@ -476,6 +482,7 @@ nav ul li {
 
 .partner__img img {
   width: 100%;
+  height: 100px;
 }
 
 .partner__img div {
@@ -937,6 +944,11 @@ footer {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }
+  .impersLog img {
+    height: 150px;
+    width: 250px;
+    padding-top: 25px;
+  }
   .tab-pane ul {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
@@ -1015,6 +1027,11 @@ footer {
 }
 
 @media (max-width: 470px) {
+  .impersLog img {
+    height: 150px;
+    width: 180px;
+    padding-top: 25px;
+  }
   .galery {
     font-size: 36px;
     line-height: 36px;
