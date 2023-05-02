@@ -895,7 +895,7 @@ footer {
        object-fit: cover;
   }
   .partner {
-    font-size: 64px;
+    font-size: 50px;
     line-height: 64px;
   }
   .partner__img {
@@ -943,7 +943,7 @@ footer {
     font-family: 'MyriadR';
   }
   .footer__bottom-mail .title {
-    font-size: 15px;
+    font-size: 13px;
     line-height: 29px;
   }
   .footer__bottom-mail .subtitle {
