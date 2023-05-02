@@ -83,7 +83,7 @@ function init () {
             // iconContent: element.shortTitle,
             content: i,
             balloonContent: [
-                "<div style='min-height: 100px; max-width: 340px; padding: 20px 30px;'><h2 style='margin: 0px 0 10px; text-transform: uppercase;'>" + element.title + "</h2><p style='margin: 0 0 20px;'>" + element.shortTitle + "</p><button target='_blank' style='font-size: 32px;color: #2D74CA;text-decoration: none;border: none; background: #FFF;padding: 10px 20px;' onclick='backToMain()'>ПОНЯТНО</button></div>"
+                "<div style='min-height: 100px; max-width: 340px; padding: 20px 30px;'><h2 style='margin: 0px 0 10px; text-transform: uppercase;'>" + element.title + "</h2><button target='_blank' style='font-size: 32px;color: #2D74CA;text-decoration: none;border: none; background: #FFF;padding: 10px 20px;' onclick='backToMain()'>ПОНЯТНО</button></div>"
             ],
         }, {
             iconLayout: 'default#imageWithContent',
@@ -106,7 +106,7 @@ function init () {
             newServiceCenterMark = new ymaps.Placemark(element.coords, {
                 content: i,
                 balloonContent: [
-                    "<div style='min-height: 100px; max-width: 340px; padding: 20px 30px;'><h2 style='margin: 0px 0 10px; text-transform: uppercase;'>" + element.title + "</h2><p style='margin: 0 0 20px;'>" + element.shortTitle + "</p><button target='_blank' style='font-size: 32px;color: #2D74CA;text-decoration: none;border: none;background: #FFF;padding: 10px 20px;' onclick='backToMain()'>ПОНЯТНО</button></div>"
+                    "<div style='min-height: 100px; max-width: 340px; padding: 20px 30px;'><h2 style='margin: 0px 0 10px; text-transform: uppercase;'>" + element.title + "</h2><button target='_blank' style='font-size: 32px;color: #2D74CA;text-decoration: none;border: none;background: #FFF;padding: 10px 20px;' onclick='backToMain()'>ПОНЯТНО</button></div>"
                 ],
             }, {
                 iconLayout: 'default#imageWithContent',

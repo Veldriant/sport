@@ -212,6 +212,7 @@ nav ul li {
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
+  max-width: 220px;
   text-transform: uppercase;
   font-family: "Sport";
 }
