@@ -466,9 +466,10 @@ nav ul li {
 }
 
 .partner__img {
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 60px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 48%;
+  gap: 50px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -479,6 +480,25 @@ nav ul li {
 
 .partner__img div {
   padding-right: 5%;
+}
+
+.partner__org {
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  width: 48%;
+  gap: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.partner__org li {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.partner__org li img {
+  height: 150px;
 }
 
 .bg-quest {
@@ -747,8 +767,19 @@ footer {
         grid-template-columns: 50% 50%;
   }
   .partner__img {
+    width: 60%;
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
+  }
+  .partner__org {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    width: 60%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .partner__org li img {
+    height: 120px;
   }
   .div4 {
     -ms-grid-row: 1;
@@ -833,6 +864,9 @@ footer {
     line-height: 21px;
     font-family: 'MyriadR';
   }
+  .footer__bottom-mail .title {
+    font-size: 28px;
+  }
 }
 
 @media (max-width: 750px) {
@@ -899,6 +933,7 @@ footer {
     line-height: 64px;
   }
   .partner__img {
+    width: 90%;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }
@@ -918,6 +953,13 @@ footer {
     height: 680px;
     background-size: cover;
     background-position: center;
+  }
+  .partner__org {
+    width: 100%;
+    gap: 20px;
+  }
+  .partner__org li img {
+    height: 100px;
   }
   .footer__top-text .title {
     font-weight: 400;
@@ -999,6 +1041,13 @@ footer {
   }
   .button-first {
     width: 60%;
+  }
+  .partner__org {
+    width: 100%;
+    gap: 20px;
+  }
+  .partner__org li img {
+    height: 80px;
   }
 }
 
