@@ -773,7 +773,7 @@ footer {
         grid-template-columns: 50% 50%;
   }
   .partner__img {
-    width: 60%;
+    width: 80%;
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
   }
