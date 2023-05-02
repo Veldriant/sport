@@ -211,7 +211,7 @@ nav ul li {
 }
 
 .text-red {
-  color: #E41636;
+  color: #E41636 !important;
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
@@ -639,7 +639,7 @@ footer {
 
 @media (max-width: 1600px) {
   .button-first {
-    left: 65.5%;
+    left: 64.5%;
     top: 14%;
   }
   .numbers-block {
@@ -669,7 +669,7 @@ footer {
 
 @media (max-width: 1440px) {
   .button-first {
-    left: 67.5%;
+    left: 64%;
   }
   .text-red {
     font-size: 30px;
@@ -681,7 +681,7 @@ footer {
 
 @media (max-width: 1200px) {
   .button-first {
-    left: 72%;
+    left: 67%;
     top: 13%;
   }
   .about__event-text {
@@ -832,7 +832,8 @@ footer {
     color: #e51f2f5b;
   }
   .button-first {
-    left: 5%;
+    margin: auto;
+    left: 0%;
     width: 50%;
     text-align: center;
     top: 0px;
@@ -843,6 +844,12 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
     margin-bottom: 30px;
+  }
+  .text-first__titile {
+    margin: auto !important;
+  }
+  .text-first__text {
+    margin: auto;
   }
   .back__text {
     padding-top: 10px;
@@ -1049,6 +1056,23 @@ footer {
   }
   .tab-content__wraper {
     height: 350px;
+  }
+  .button-first {
+    margin: 0px;
+    margin-bottom: 10px;
+    left: 5%;
+    width: 50%;
+    top: 0px;
+  }
+}
+
+@media (max-width: 455px) {
+  .allfree-w {
+    white-space: pre-line;
+  }
+  .allfree {
+    position: relative;
+    top: 10px;
   }
 }
 

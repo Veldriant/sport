@@ -134,7 +134,7 @@ nav
             font-family: 'MyriadR'
             background-color: #2D74CA
 .text-red
-    color: #E41636
+    color: #E41636 !important
     font-weight: 400
     font-size: 36px
     line-height: 36px
@@ -406,7 +406,7 @@ footer
         font-family: 'MyriadR'
 @media ( max-width: 1600px )
     .button-first
-        left: 65.5%
+        left: 64.5%
         top: 14%
     .numbers-block
         top: -230px
@@ -431,14 +431,14 @@ footer
 
 @media ( max-width: 1440px )
     .button-first
-        left: 67.5%
+        left: 64%
     .text-red
         font-size: 30px
     .text-blue
         font-size: 30px
 @media ( max-width: 1200px )
     .button-first
-        left: 72%
+        left: 67%
         top: 13%
     .about
         &__event
@@ -544,13 +544,18 @@ footer
             span
                 color: #e51f2f5b
     .button-first
-        left: 5%
+        margin: auto
+        left: 0%
         width: 50%
         text-align: center
         top: 0px
         display: flex
         justify-content: center
         margin-bottom: 30px
+    .text-first__titile
+        margin: auto !important
+    .text-first__text
+        margin: auto
     .back
         &__text
             padding-top: 10px
@@ -713,6 +718,18 @@ footer
     .tab-content
         &__wraper
             height: 350px
+    .button-first
+        margin: 0px
+        margin-bottom: 10px
+        left: 5%
+        width: 50%
+        top: 0px
+@media ( max-width: 455px )
+    .allfree-w
+        white-space: pre-line
+    .allfree
+        position: relative
+        top: 10px
 @media ( max-width: 420px )
     .first-block
         height: 500px
@@ -730,7 +747,6 @@ footer
 
 .mobile ul li
     display: inline-block
-
 .mobile ul li a
     color: #333
     display: inline-block
