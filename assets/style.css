@@ -81,6 +81,7 @@ button.nav-link {
 
 ul {
   list-style: none;
+  padding: 0px;
 }
 
 nav {
@@ -635,6 +636,91 @@ footer {
   font-size: 17px;
   line-height: 21px;
   font-family: 'MyriadR';
+}
+
+.photo-video__bg {
+  background-image: url(./image/PgotoVideoBg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.photo-video__title {
+  padding-top: 100px;
+  padding-block: 100px;
+}
+
+.photo-video__title-red {
+  font-family: 'Sport';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #E41636;
+  padding: 20px 0px;
+}
+
+.photo-video__title-text {
+  font-family: 'Sport';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 128px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.photo-video__content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding-bottom: 100px;
+}
+
+.photo-video__content-video {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-bottom: 100px;
+}
+
+.photo-video__img img {
+  width: 100%;
+}
+
+.buttonVideo {
+  padding: 19px 50px;
+  font-family: "Sport";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #2D74CA;
+  border: none;
+  margin-bottom: 70px;
+}
+
+.buttonPhoto {
+  padding: 19px 50px;
+  font-family: "Sport";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #E51F2F;
+  border: none;
+  margin-bottom: 70px;
 }
 
 @media (max-width: 1600px) {
