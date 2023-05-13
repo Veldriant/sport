@@ -6,6 +6,8 @@ a
     font-family: 'MyriadR'
 p
     margin: 0px
+.dropdown-toggle::after
+    display: none
 .w-85
     width: 85%
 .bg-inherit
@@ -470,6 +472,19 @@ footer
     background: #E51F2F
     border: none
     margin-bottom: 70px
+.dropdown-item
+    &__red
+        font-family: "Sport"
+        font-style: normal
+        font-weight: 400
+        font-size: 36px
+        line-height: 36px
+        color: #E41636
+        background: #FFFFFF
+        border: 1px solid #E51F2F
+    &__red:hover
+        background: #E41636
+        color: #FFFFFF
 @media ( max-width: 1600px )
     .button-first
         left: 64.5%
