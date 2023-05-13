@@ -320,7 +320,7 @@ nav ul li {
 }
 
 .tab-content__wraper {
-  height: 320px;
+  height: 340px;
 }
 
 .tab-content__block {
@@ -761,7 +761,7 @@ footer {
 
 @media (max-width: 1470px) {
   .tab-content__wraper {
-    height: 350px;
+    height: 370px;
   }
   .about__event-text {
     width: 60%;
@@ -802,7 +802,7 @@ footer {
     height: 280px;
   }
   .tab-content__wraper {
-    height: 400px;
+    height: 420px;
   }
   .tab-content__block {
     padding: 30px;
@@ -993,7 +993,7 @@ footer {
     height: 850px;
   }
   .tab-content__wraper {
-    height: 360px;
+    height: 380px;
   }
 }
 
@@ -1161,7 +1161,7 @@ footer {
     margin-left: 0px;
   }
   .tab-content__wraper {
-    height: 350px;
+    height: 380px;
   }
   .button-first {
     margin: 0px;
