@@ -761,7 +761,7 @@ footer {
 
 @media (max-width: 1470px) {
   .tab-content__wraper {
-    height: 370px;
+    height: 390px;
   }
   .about__event-text {
     width: 60%;
@@ -802,7 +802,7 @@ footer {
     height: 280px;
   }
   .tab-content__wraper {
-    height: 420px;
+    height: 450px;
   }
   .tab-content__block {
     padding: 30px;
@@ -864,7 +864,7 @@ footer {
     grid-gap: 10px;
   }
   .tab-content__wraper {
-    height: 320px;
+    height: 360px;
   }
   .swiper-navigation {
     display: none !important;
@@ -1042,7 +1042,7 @@ footer {
     width: 90%;
   }
   .tab-content__wraper {
-    height: 290px;
+    height: 400px;
   }
   .cart img {
     width: 100%;
@@ -1161,7 +1161,7 @@ footer {
     margin-left: 0px;
   }
   .tab-content__wraper {
-    height: 380px;
+    height: 390px;
   }
   .button-first {
     margin: 0px;
