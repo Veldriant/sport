@@ -452,9 +452,10 @@ nav ul li {
 
 .bg-galery {
   background: #2D74CA;
+  background-image: url(./image/bg-galery.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: bottom;
+  background-position-y: 200px;
 }
 
 .cart {
@@ -747,17 +748,26 @@ footer {
   .first-block {
     height: 1800px;
   }
+  .bg-galery {
+    background-position-y: 250px;
+  }
 }
 
 @media (max-width: 2850px) {
   .first-block {
     height: 1650px;
   }
+  .bg-galery {
+    background-position-y: 320px;
+  }
 }
 
 @media (max-width: 2550px) {
   .first-block {
     height: 1390px;
+  }
+  .bg-galery {
+    background-position-y: -340px;
   }
 }
 
@@ -843,6 +853,9 @@ footer {
   .text-red {
     font-size: 25px;
   }
+  .bg-galery {
+    background-position-y: 40px;
+  }
   .partner__img {
     width: 60%;
   }
@@ -898,6 +911,10 @@ footer {
   }
   .swiper-navigation {
     display: none !important;
+  }
+  .bg-galery {
+    background-position-y: -220px;
+    background-position-x: -330px;
   }
   .bg-quest {
     padding-top: 50px;
@@ -1079,6 +1096,11 @@ footer {
     height: 470px;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  .bg-galery {
+    background-position-y: -300px;
+    background-position-x: -240px;
+    padding-bottom: 60px;
   }
   .partner {
     font-size: 50px;
