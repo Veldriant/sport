@@ -451,11 +451,11 @@ nav ul li {
 }
 
 .bg-galery {
-  background: #2D74CA;
-  background-image: url(./image/bg-galery.png);
+  background-image: url(./image/bg-galery1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: 200px;
+  background-position-y: -700px;
+  padding-bottom: 100px;
 }
 
 .cart {
@@ -749,7 +749,7 @@ footer {
     height: 1800px;
   }
   .bg-galery {
-    background-position-y: 250px;
+    background-position-y: -280px;
   }
 }
 
@@ -758,7 +758,7 @@ footer {
     height: 1650px;
   }
   .bg-galery {
-    background-position-y: 320px;
+    background-position-y: 00px;
   }
 }
 
@@ -767,8 +767,7 @@ footer {
     height: 1390px;
   }
   .bg-galery {
-    background-position-y: -50px;
-    background-position-x: -150px;
+    background-position-y: -140px;
   }
 }
 
@@ -914,8 +913,7 @@ footer {
     display: none !important;
   }
   .bg-galery {
-    background-position-y: -220px;
-    background-position-x: -330px;
+    background-position-y: -130px;
   }
   .bg-quest {
     padding-top: 50px;
@@ -1097,11 +1095,6 @@ footer {
     height: 470px;
     -o-object-fit: cover;
        object-fit: cover;
-  }
-  .bg-galery {
-    background-position-y: -300px;
-    background-position-x: -240px;
-    padding-bottom: 60px;
   }
   .partner {
     font-size: 50px;
