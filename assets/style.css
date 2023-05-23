@@ -767,7 +767,8 @@ footer {
     height: 1390px;
   }
   .bg-galery {
-    background-position-y: -340px;
+    background-position-y: -50px;
+    background-position-x: -150px;
   }
 }
 

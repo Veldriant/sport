@@ -664,7 +664,8 @@ footer {
   }
 
   .bg-galery {
-    background-position-y: -340px;
+    background-position-y: -50px;
+    background-position-x: -150px;
   }
 }
 @media (max-width: 2200px) {
