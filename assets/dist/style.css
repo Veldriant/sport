@@ -363,8 +363,8 @@ nav ul li {
 
 .parent {
   display: grid;
-  grid-template-columns: 25% 25% 50%;
-  grid-template-rows: repeat(1fr 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 10px;
 }
 .parent img {
